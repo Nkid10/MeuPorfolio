@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Afonso Nkidisala</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<header>
+		<div class="center">
+			<div class="logo">
+				
+				<h1>Nkidisala</h1>
+			</div>
+			<div class="menu-desktop">
+				<ul>
+					<li id="top">
+						<a href="#">Menu</a>
+					</li>
+					<li>
+						<a href="#about">About</a>
+					</li>
+					<li>
+						<a href="#skills">Skills</a>
+					</li>
+					
+					<li>
+						<a href="#contact">Contact</a>
+					</li>
+				</ul>
+			</div>
+		<div class="icone" id="clicker">
+			<i class="fa fa-bars"></i>
+		</div>
+		</div>
+		<div class="clear"></div>
+	</header>
+	<section  class="menu-mobile">
+		<div class="center">
+			<div class="mobile" id="show">
+				<ul  >
+					<li>
+						<a href="#">Menu</a>
+					</li>
+					<li>
+						<a href="#about">About</a>
+					</li>
+					<li>
+						<a href="#skills">Skills</a>
+					</li>
+					
+					<li>
+						<a href="#contact">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="clear"></div>
+	</section>
+	<section class="cta">
+		<div class="center">
+			<div class="cta-text">
+				<h1>Ola<br>Eu sou Afonso Nkidisala</h1>
+				<span>Eu sou desenvolvedor front-end.</span>
+				<button>Contact</button>
+			</div>
+		</div>
+		<div class="clear"></div>
+	</section>
+	<section  class="about">
+		<div class="center">
+			<div id="about" class="tex-about">
+			<h1>About Me</h1>
+			<span></span>
+			</div>
+			<div  class="container-about">
+			<div class="im-about">
+				<img src="imagens/n.jpg">
+			</div>
+			<div class="about-text">
+				<span> Saudações, eu sou Afonso Nkidisala, estudante universitário de engenharia e também sou desenvolvedor front-end, sou um amante de tecnologia e apaixonado por programação, buscando cada vez mais me aperfeiçoar e desenvolver sistemas de uso acessíveis e pratico.</span>
+			</div>
+			</div>
+		</div>
+		<div class="clear"></div>
+	</section>
+	<section class="skills">
+		<div class="center">
+			<div id="skills" class="skills-tex">
+				<h1>My skills</h1>
+				<span></span>
+			</div>
+			<div class="skills-all">
+			<div class="box-skill">
+				<h1>HTML5</h1>
+				<span></span>
+			</div>
+			<div class="box-skill">
+				<h1>CSS3</h1>
+				<span></span>
+			</div>
+			<div class="box-skill">
+				<h1>JAVASCRIPT</h1>
+				<span></span>
+			</div>
+			<div class="box-skill">
+				<h1>JQUERY</h1>
+				<span></span>
+			</div>
+			<div class="box-skill">
+				<h1>PHP </h1>
+				<span></span>
+			</div>
+			
+		</div>
+		</div>
+		<div class="clear"></div>
+	</section>
+	<section class="services">
+		<div class="center">
+			<div class="services-tex">
+				<h1>Galery</h1>
+				<span></span>
+			</div>
+			<div class="services-all">
+			<div class="box-services">
+				<img src="imagens/ef.png">
+			</div>
+			<div class="box-services">
+				<img src="imagens/ef2.png">
+			</div>
+			<div class="box-services">
+				<img src="imagens/efa.png">
+			</div>
+			
+		</div>
+		</div>
+		<div class="clear"></div>
+	</section>
+	<section class="form">
+		<div class="center">
+			<div id="contact" class="contact-tex">
+				<h1>Contact</h1>
+				<span></span>
+			</div>
+			<div class="cont-all">
+			<div class="social-media">
+				<ul>
+					<li>
+						<a href="https://m.facebook.com/afonso.nguindo"><i class="fa fa-facebook"></i></a>
+					</li>
+					<li>
+						<a href="https://m.facebook.com/afonso.nguindo"><i class="fa fa-instagram"></i></a>
+					</li>
+					<li>
+						<a href="https://github.com/Nkid10"><i class="fa fa-github"></i></a>
+					</li>
+					<li>
+						<a href="https://www.linkedin.com/mwlite/in/afonso-nkidisala-36934229"><i class="fa fa-linkedin"></i></a>
+					</li>
+				</ul>
+			</div>
+			<form >
+				<input type="name" placeholder="Digite seu nome" name="nome">
+				<input type="email" placeholder="Digite seu email" name="senha">
+				<input type="text" placeholder="Deixe a sua mensagens" name="sms">
+				<input type="submit" name="enviar">
+			</form>
+		</div>
+		</div>
+		<div class="clear"></div>
+	</section>
+	<footer>
+		<div class="center">
+			<div class="footer-text">
+				<span>Todos direitos reservado Afonso Nkidisala | 2020-2021</span>
+				<div  class="up"><a href="#top"><i class="fa fa-arrow-up"></i></a></div>
+			</div>
+		</div>
+		<div class="clear"></div>
+	</footer>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script>
+		$(document).ready(function(){
+  $("#clicker").click(function(){
+    $("#show").slideToggle("slow");
+ 
+  });
+});
+	
+		$(function(){
+			$('a[href*="#"]')
+
+  .not('[href="#"]')
+  .not('[href="#0"]')
+  .click(function(event) {
+    // On-page links
+    if (
+      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
+      && 
+      location.hostname == this.hostname
+    ) {
+      // Figure out element to scroll to
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      // Does a scroll target exist?
+      if (target.length) {
+        // Only prevent default if animation is actually gonna happen
+        event.preventDefault();
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000, function() {
+          // Callback after animation
+          // Must change focus!
+          var $target = $(target);
+          $target.focus();
+          if ($target.is(":focus")) { // Checking if the target was focused
+            return false;
+          } else {
+            $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+            $target.focus(); // Set focus again
+          };
+        });
+      }
+    }
+  });
+		})
+	</script>
+</body>
+</html>
